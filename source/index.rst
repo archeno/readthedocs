@@ -3,9 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to readthedocsQuickStart's documentation!
-=================================================
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -77,9 +74,22 @@ sphinx-quickstart
     furo
     sphinx-design
 
-- step4
+  the final dirctory layout looks liek this::
 
+    .
+    ├── build
+    ├── make.bat
+    ├── Makefile
+    ├── README.md
+    ├── readthedocs.yaml
+    └── source
+        ├── _static
+        ├── _templates
+        ├── conf.py
+        ├── index.rst
+        └── requirements.txt
 
+- **step4: import reopo into readthedocs**
 
 Indices and tables
 ==================
