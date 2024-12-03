@@ -1,0 +1,6 @@
+# theme
+sphinx==7.1.2
+sphinx-copybutton
+furo
+sphinx-design
+
