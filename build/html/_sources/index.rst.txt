@@ -94,7 +94,18 @@ sphinx-quickstart
 查看pdf文档
 ============
 
+文档连接
+--------
+
 `[view pdf] <_static/CCRIO2.3.pdf>`_
+
+直接嵌入
+----------
+
+.. raw:: html
+    
+   <iframe src="_static/CCRIO2.3.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
 
 Indices and tables
 ==================
