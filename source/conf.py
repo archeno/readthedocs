@@ -29,6 +29,8 @@ latex_elements = {
     'pointsize': '10pt',
     'preamble': r'''
     \usepackage{xeCJK}
+    \usepackage{graphicx}
+    \usepackage{hyperref}
     \setCJKmainfont{SimSun}  % 设置中文字体（如宋体）
     ''',
     'figure_align': 'H',
