@@ -19,9 +19,20 @@ release = '0.1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    'sphinx.ext.autodoc',
     'sphinx_design',
     'sphinx_copybutton',
 ]
+
+latex_elements = {
+    'papersize': 'a4paper',
+    'pointsize': '10pt',
+    'preamble': r'''
+    \usepackage{xeCJK}
+    \setCJKmainfont{SimSun}  % 设置中文字体（如宋体）
+    ''',
+    'figure_align': 'H',
+}
 
 templates_path = ['_templates']
 exclude_patterns = []

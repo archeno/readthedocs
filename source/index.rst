@@ -111,6 +111,11 @@ sphinx-quickstart
       <iframe src="_static/web/viewer.html?file=../CCRIO2.3.pdf"
            width="100%" height="800px" style="border: none;"></iframe>
 
+.. image:: _static/images/ccrio.png
+   :alt: descriptive text
+
+
+
 Indices and tables
 ==================
 
