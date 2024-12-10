@@ -31,6 +31,7 @@ latex_elements = {
     \usepackage{xeCJK}
     \usepackage{graphicx}
     \usepackage{hyperref}
+    \usepackage{pdfpages}
     \setCJKmainfont{SimSun}  % 设置中文字体（如宋体）
     ''',
     'figure_align': 'H',
