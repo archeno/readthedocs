@@ -33,12 +33,9 @@ latex_elements = {
     \usepackage{xeCJK}
     \usepackage{graphicx}
     \usepackage{hyperref}
-<<<<<<< HEAD
     \usepackage{pdfpages}
-=======
     \usepackage{geometry}
     \geometry{a4paper, margin=1in}
->>>>>>> feea4ec (feat: modify conf.py)
     \setCJKmainfont{SimSun}  % 设置中文字体（如宋体）
     \setCJKsansfont{SimHei}           % 无衬线字体
     \setCJKmonofont{FangSong}         % 等宽字体
